@@ -1,0 +1,37 @@
+:root{
+  --azul: #0b2639ff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  color: var(--azul);
+}
+header{
+  height: 3rem;
+}
+nav{
+  border-bottom: 2px solid rgba(2, 5, 12, 0.116);
+}
+#home{
+  height: 80vh;  
+  top: -30px;
+}
+.button{
+  background-color: var(--azul);
+  padding: 7px 15px;
+  text-decoration: none;
+  border-radius: 30px;
+  color: white;
+  font-size: medium;
+  transition: 0.4s;
+}
+.button:hover{
+  background-color: rgb(15, 58, 88);
+}
+.bg-azul{
+  background-color: var(--azul);
+}
+.bg-laranja{
+  background-color: orange;
+}
