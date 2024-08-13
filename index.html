@@ -11,14 +11,38 @@
   </head>
   <body>
     <header>
-      <nav class="navbar fixed-top bg-light rounded-bottom-5 ">
-        <img src="./img/deHiggs.png" alt="" width="150px" class="mx-lg-5 mx-3">
+      <nav class="navbar navbar-expand-sm bg-body-tertiary rounded-5 rounded-top-0 fixed-top" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./img/deHiggs.png" alt="" width="150px" class="mx-lg-5 mx-3 navbar-brand"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="edital.html">Edital</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="manifesto.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sobre Nos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="manifesto.html">1</a></li>
+                  <li><a class="dropdown-item" href="manifesto.html">2</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <div class="bg-azul">
       <section id="home" class="rounded-5 rounded-top-0 mt-0 pt-0 bg-light">
         <div class="container d-flex align-items-end" style="height: 40%;">
-          <img src="./img/g14-AZUL.png" alt="" class="w-100 px-5 py-3 ">
+          <img src="./img/g14-AZUL.png" alt="" class="w-100 px-5 py-3">
         </div>
         <div>
           <h5 class="justify-content-center d-none d-md-flex">Revista de Ficção Científica e Fantasia Cristã</h5>

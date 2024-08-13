@@ -35,3 +35,8 @@ nav{
 .bg-laranja{
   background-color: orange;
 }
+@media screen and (min-width:768px) {
+  nav{
+    height: 3rem;
+  }
+}
